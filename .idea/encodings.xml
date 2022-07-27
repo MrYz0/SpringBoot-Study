@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/01-springboot-hello/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-springboot-mvc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-springboot-db-h2-jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-springboot-logback/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-springboot-devtools/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-springboot-Restful/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-springboot-exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-springboot-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-springboot-samrt_doc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-springboot-version/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-springboot-Jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-demo-mvc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-hello/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../apache-maven-3.8.5/repository/org/springframework/boot/spring-boot-starter-parent/2.7.2/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,31 @@
+spring:
+  #数据库
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test_db?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+
+    initial-size: 20
+    max-idle: 60
+    max-wait: 10000
+    min-idle: 10
+    max-active: 200
+  jpa:
+    generate-ddl: false
+    show-sql: false
+    properties:
+          hibernate:
+            dialect: org.hibernate.dialect.MySQLDialect
+            format_sql: true
+            use-new-id-generator-mappings: false
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  # 返回json的全局时间格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+# 端口号    
+server:
+  port: 8888

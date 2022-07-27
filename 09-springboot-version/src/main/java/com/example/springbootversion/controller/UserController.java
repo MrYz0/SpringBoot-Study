@@ -1,0 +1,41 @@
+package com.example.springbootversion.controller;
+
+import com.example.springbootversion.config.version.ApiVersion;
+import com.example.springbootversion.entity.User;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import javax.annotation.Resource;
+
+/**
+ * @Author 杨洲
+ * @Date 2022/7/26 10:34
+ */
+@RestController
+@RequestMapping("api/{v}/user")
+public class UserController {
+
+
+    @RequestMapping("get")
+    public User getUser() {
+        return User.builder().age(18).name("yz, default").build();
+    }
+
+    @ApiVersion("1.0.0")
+    @RequestMapping("get")
+    public User getUserV1() {
+        return User.builder().age(18).name("yz, v1.0.0").build();
+    }
+
+    @ApiVersion("1.1.0")
+    @RequestMapping("get")
+    public User getUserV11() {
+        return User.builder().age(19).name("yz, v1.1.0").build();
+    }
+
+    @ApiVersion("1.1.2")
+    @RequestMapping("get")
+    public User getUserV112() {
+        return User.builder().age(19).name("yz, v1.1.2").build();
+    }
+}

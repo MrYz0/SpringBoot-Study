@@ -1,0 +1,8 @@
+# 端口号
+server:
+  port: 8888
+spring:
+  profiles:
+    active: dev #环境配置
+  application:
+    name: springboot-logback  # 服务器
